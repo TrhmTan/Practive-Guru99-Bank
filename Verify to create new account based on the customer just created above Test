@@ -42,11 +42,6 @@ public class VerifytocreatenewaccountbasedonthecustomerjustcreatedaboveTest {
     driver.manage().window().setSize(new Dimension(1346, 708));
     driver.findElement(By.name("cusid")).click();
     driver.findElement(By.name("cusid")).sendKeys("32375");
-    driver.findElement(By.name("inideposit")).click();
-    driver.findElement(By.name("inideposit")).sendKeys("1");
-    driver.findElement(By.name("button2")).click();
-    driver.findElement(By.name("cusid")).click();
-    driver.findElement(By.name("cusid")).sendKeys("32375");
     {
       WebElement dropdown = driver.findElement(By.name("selaccount"));
       dropdown.findElement(By.xpath("//option[. = 'Current']")).click();
